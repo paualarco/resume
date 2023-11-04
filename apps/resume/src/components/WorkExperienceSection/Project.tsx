@@ -8,9 +8,11 @@ import TitleTooltip from '../TitleTooltip';
 function Project({ title, description, startDate, endDate, which, techStack }: Project) {
   const { theme } = useTheme();
 
+  const props = { ...title, size: 'medium' };
+
   return (
     <Div>
-      <TitleTooltip {...title} />
+      <TitleTooltip {...props} />
       <small>
         {startDate} ~ {endDate}
       </small>
