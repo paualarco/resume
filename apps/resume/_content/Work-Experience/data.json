@@ -17,7 +17,7 @@
           "description": "Building automation Chatbots with LLMs",
           "startDate": "2023.08",
           "endDate": "",
-          "which": ["Chatbots support agents", "LLMs apps", "Knowledge Base data load", "Retrieval Augmented Generation (RAG)"],
+          "which": ["Chatbots support agents", "LLMs apps", "Knowledge Base data load", "Retrieval Augmented Generation (RAG)", "Improving agent Flow Builder and automations"],
           "techStack": ["Python", "Scala", "TypeScript", "LLMs"]
         },
         {
