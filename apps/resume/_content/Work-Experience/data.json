@@ -14,25 +14,32 @@
             "githubLink": null,
             "otherLink": "https://www.dixa.com/product/mim/"
           },
-          "description": "Building automation Chatbots with LLMs",
+          "description": "Dixa’s next-gen chatbot for customer service.",
           "startDate": "2023.08",
           "endDate": "",
-          "which": ["Chatbots support agents", "LLMs apps", "Knowledge Base data load", "Retrieval Augmented Generation (RAG)", "Improving agent Flow Builder and automations"],
-          "techStack": ["Python", "Scala", "TypeScript", "LLMs"]
+          "which": [
+            "Chatbot support agent that reduces human customer service workload", 
+            "Generative AI with LLMs", 
+            "Knowledge Base data loading for Retrieval Augmented Generation (RAG)", 
+            "Improving agent Flow Builder and automations"],
+          "techStack": ["Python", "Scala", "React", "TypeScript", "LLMs", "Kafka", "Postgres"]
         },
         {
           "title": {
-            "text": "Flow Builder",
+            "text": "Channels",
             "githubLink": null,
-            "otherLink": null
+            "otherLink": "https://www.dixa.com/product/dixa-channels/"
           },
-          "description": "Maintaining and improving agent Flow Builder and automations", 
-          "startDate": "2021.09",
-          "endDate": "",
+          "description": "Adding native channel integrations to Dixa's platform.",
+          "startDate": "2021.04",
+          "endDate": "2023.08",
           "which": [
-            "Flow Builder to automate conversation operations"
+            "Integrating third party messaging apps with Dixa's platform to provide an omnichannel customer service experience.",
+            "Defining and implementing webhooks and apis for external integrations.", 
+            "Adding new features and capabilities to existing channels",
+            "Monitoring and improving existing production systems"
           ],
-          "techStack": ["Scala", "TypeScript", "DynamoDB", "Kafka", "Redis"]
+          "techStack": ["Scala", "React", "AWS", "Kafka", "Redis", "Thrift", "DynamoDB", "SQS", "SES", "SNS", "Postgres"]
         }
       ]
     },
