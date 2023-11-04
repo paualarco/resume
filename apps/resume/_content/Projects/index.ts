@@ -13,7 +13,7 @@ export interface Project {
   which: string[];
 }
 
-export interface Projects {
+export interface ProjectsList {
   title: string;
   list: Project[];
 }

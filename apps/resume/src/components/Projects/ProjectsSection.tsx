@@ -1,13 +1,14 @@
+import { ProjectsList } from '../../../_content/Projects';
 import Section from '../Section';
-import Projects from './Projects';
+import Project from './Project';
 
-function ProjectsSection({ title, list }: Projects) {
+function ProjectsSection({ title, list }: ProjectsList) {
   return (
     <Section>
       <h2>{title}</h2>
 
       {list.map((courses, index) => (
-        <Projects key={index} {...courses} />
+        <Project key={index} {...courses} />
       ))}
     </Section>
   );

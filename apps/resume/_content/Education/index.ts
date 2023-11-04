@@ -13,7 +13,7 @@ export interface EducationExperience {
   which: string[];
 }
 
-export interface Education {
+export interface EducationList {
   title: string;
   list: EducationExperience[];
 }

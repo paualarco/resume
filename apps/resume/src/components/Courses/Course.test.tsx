@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import Experience from './Courses';
+import Course from './Course';
 
 describe('resume - components - Experience', () => {
   it('should render props', () => {
@@ -17,7 +17,7 @@ describe('resume - components - Experience', () => {
       which: ['1', '2'],
     };
 
-    render(<Experience {...mockExperience} />);
+    render(<Course {...mockExperience} />);
     expect(screen.getByText(mockExperience.title.text)).toBeInTheDocument();
     expect(screen.getByText(`${mockExperience.startDate} ~ ${mockExperience.endDate}`)).toBeInTheDocument();
     expect(screen.getByText(mockExperience.position)).toBeInTheDocument();
@@ -40,7 +40,7 @@ describe('resume - components - Experience', () => {
       which: [],
     };
 
-    render(<Experience {...mockExperience} />);
+    render(<Course {...mockExperience} />);
     expect(screen.queryByRole('list')).not.toBeInTheDocument();
   });
 });

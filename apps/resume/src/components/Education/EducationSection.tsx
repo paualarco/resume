@@ -1,13 +1,14 @@
+import { EducationList } from '../../../_content/Education';
 import Section from '../Section';
-import Education from './Education';
+import EducationExperience from './EducationExperience';
 
-function EducationSection({ title, list }: Education) {
+function EducationSection({ title, list }: EducationList) {
   return (
     <Section>
       <h2>{title}</h2>
 
       {list.map((education, index) => (
-        <Education key={index} {...education} />
+        <EducationExperience key={index} {...education} />
       ))}
     </Section>
   );

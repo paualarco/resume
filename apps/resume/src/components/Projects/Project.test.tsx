@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import Project from './Projects';
+import Project from './Project';
 
 describe('resume - components - Experience', () => {
   it('should render props', () => {

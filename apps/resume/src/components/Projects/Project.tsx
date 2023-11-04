@@ -4,11 +4,17 @@ import { useTheme } from '@nextui-org/react';
 import { Project } from '../../../_content/Projects';
 import Li from '../Li';
 import TitleTooltip from '../TitleTooltip';
+import { Size } from '../TitleTooltip/TitleTooltip';
 
-function Projects({ title, position, startDate, endDate, description, which }: Project) {
+function Project({ title, position, startDate, endDate, description, which }: Project) {
   const { theme } = useTheme();
 
-  const props = { ...title, size: 'medium' };
+  const props: {
+    text: string;
+    githubLink: string;
+    otherLink: string;
+    size: Size;
+  } = { ...title, size: 'medium' };
   return (
     <Div>
       <TitleTooltip {...props} />
@@ -30,7 +36,7 @@ function Projects({ title, position, startDate, endDate, description, which }: P
   );
 }
 
-export default Projects;
+export default Project;
 
 const Div = styled.div`
   display: flex;

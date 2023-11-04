@@ -1,7 +1,7 @@
-import { Courses, data as coursesData } from '../../_content/Courses';
-import { data as educationData, Education } from '../../_content/Education';
+import { CoursesList, data as coursesData } from '../../_content/Courses';
+import { data as educationData, EducationList } from '../../_content/Education';
 import { data as headerData, Header as HeaderType } from '../../_content/Header';
-import { data as projectsData, Projects } from '../../_content/Projects';
+import { data as projectsData, ProjectsList } from '../../_content/Projects';
 import { data as skillsData, Skills } from '../../_content/Skills';
 import { data as workExperienceData, WorkExperience } from '../../_content/Work-Experience';
 import CoursesSection from '../components/Courses';
@@ -13,9 +13,9 @@ import WorkExperienceSection from '../components/WorkExperienceSection';
 interface Props {
   header: HeaderType;
   workExperience: WorkExperience;
-  education: Education;
-  courses: Courses;
-  projects: Projects;
+  education: EducationList;
+  courses: CoursesList;
+  projects: ProjectsList;
   skills: Skills;
 }
 

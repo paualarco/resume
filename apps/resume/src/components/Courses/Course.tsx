@@ -11,8 +11,8 @@ function Course({ title, position, startDate, endDate, description, which }: Cou
 
   const props: {
     text: string;
-    githubLink?: string;
-    otherLink?: string;
+    githubLink: string;
+    otherLink: string;
     size: Size;
   } = { ...title, size: 'small' };
 

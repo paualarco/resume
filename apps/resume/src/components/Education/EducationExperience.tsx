@@ -4,11 +4,17 @@ import { useTheme } from '@nextui-org/react';
 import { EducationExperience } from '../../../_content/Education';
 import Li from '../Li';
 import TitleTooltip from '../TitleTooltip';
+import { Size } from '../TitleTooltip/TitleTooltip';
 
 function EducationExperience({ title, position, startDate, endDate, description, which }: EducationExperience) {
   const { theme } = useTheme();
 
-  const props = { ...title, size: 'medium' };
+  const props: {
+    text: string;
+    githubLink: string;
+    otherLink: string;
+    size: Size;
+  } = { ...title, size: 'medium' };
   return (
     <Div>
       <TitleTooltip {...props} />

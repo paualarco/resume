@@ -4,11 +4,17 @@ import { NextUITheme, useTheme } from '@nextui-org/react';
 import { Project } from '../../../_content/Work-Experience';
 import Li from '../Li';
 import TitleTooltip from '../TitleTooltip';
+import { Size } from '../TitleTooltip/TitleTooltip';
 
 function Project({ title, description, startDate, endDate, which, techStack }: Project) {
   const { theme } = useTheme();
 
-  const props = { ...title, size: 'medium' };
+  const props: {
+    text: string;
+    githubLink: string;
+    otherLink: string;
+    size: Size;
+  } = { ...title, size: 'medium' };
 
   return (
     <Div>

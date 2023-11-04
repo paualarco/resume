@@ -13,7 +13,7 @@ export interface Course {
   which: string[];
 }
 
-export interface Courses {
+export interface CoursesList {
   title: string;
   list: Course[];
 }
