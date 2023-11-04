@@ -79,7 +79,7 @@
           "title": {
             "text": "Ingestion",
             "githubLink": null,
-            "otherLink": "https://www.callsign.com/platform/intelligence-engine"
+            "otherLink": null
           },
           "description": "Ingest data from a wide range of sources and formats to the data lake",
           "startDate": "2019.09",
