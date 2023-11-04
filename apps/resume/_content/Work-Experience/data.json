@@ -92,6 +92,29 @@
           "techStack": ["Scala", "Java", "Cassandra", "gRPC", "Kafka", "Redis", "AWS", "K8s", "Docker"]
         }
       ]
+    },
+    {
+      "name": "Oesia",
+      "position": "Software Engineer, Intern",
+      "startDate": "2017.07",
+      "endDate": "2018.08",
+      "description": "Barcelona, Spain",
+      "projects": [
+        {
+          "title": {
+            "text": "Biguardian",
+            "githubLink": null,
+            "otherLink": null
+          },
+          "description": "Cybersecurity system for real-time network threat analysis.",
+          "startDate": "2019.09",
+          "endDate": "2021.03",
+          "which": [
+            "Real-time data processing from IoT and network devices"
+          ],
+          "techStack": ["Scala", "Spark", "Spark Streaming", "Hadoop", "HDFS", "Hive", "Cloudera", "On-Premise", "Nifi", "HBase"]
+        }
+      ]
     }
   ]
 }
