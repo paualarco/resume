@@ -17,8 +17,8 @@
           "description": "Building automation Chatbots with LLMs",
           "startDate": "2023.08",
           "endDate": "",
-          "which": ["Chatbots", "LLMs", "NLP", "Knowledge Base / Retriever"],
-          "techStack": ["Python", "Scala", "TypeScript"]
+          "which": ["Chatbots support agents", "LLMs apps", "Knowledge Base data load", "Retrieval Augmented Generation (RAG)"],
+          "techStack": ["Python", "Scala", "TypeScript", "LLMs"]
         },
         {
           "title": {
@@ -30,8 +30,7 @@
           "startDate": "2021.09",
           "endDate": "",
           "which": [
-            "Flows",
-            "Automation"
+            "Flow Builder to automate conversation operations"
           ],
           "techStack": ["Scala", "TypeScript", "DynamoDB", "Kafka", "Redis"]
         }
@@ -46,17 +45,19 @@
       "projects": [
         {
           "title": {
-            "text": "Intel Team",
+            "text": "Intelligence Engine",
             "githubLink": null,
-            "otherLink": null
+            "otherLink": "https://www.callsign.com/platform/intelligence-engine"
           },
-          "description": "Maintaining, designing and improving a microservices (event-driven) platform that provides real-time digital authentication.",
+          "description": "Artificial Intelligence, genuine security.",
           "startDate": "2019.09",
           "endDate": "2021.03",
           "which": [
-            "Scala", "Java", "Kafka", "Cassandra", "Redis", "AWS", "K8S", "Docker"
+            "Designing and improving an event-driven platform that provides real-time digital authentication.",
+            "Working in a team of 10-12 people from product, QA and data science",
+            "Leverage and orchestrate machine learning models used as core of the user authentication predictions."
           ],
-          "techStack": ["TypeScript", "React", "Recoil"]
+          "techStack": ["Scala", "Java", "Cassandra", "gRPC", "Kafka", "Redis", "AWS", "K8s", "Docker"]
         }
       ]
     }
