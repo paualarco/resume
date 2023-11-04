@@ -2,90 +2,59 @@
   "title": "Work Experience",
   "list": [
     {
-      "name": "Foo company",
-      "position": "Web Developer",
-      "startDate": "2021.03",
+      "name": "Dixa",
+      "position": "Senior Software Engineer",
+      "startDate": "2021.04",
       "endDate": "",
-      "description": "Foo company is social media company for every world",
+      "description": "Building a customer service platform",
       "projects": [
         {
           "title": {
-            "text": "Foo Pay",
+            "text": "Mim",
             "githubLink": null,
-            "otherLink": null
+            "otherLink": "https://www.dixa.com/product/mim/"
           },
-          "description": "Leading FE developers",
-          "startDate": "2022.01",
+          "description": "Building automation Chatbots with LLMs",
+          "startDate": "2023.08",
           "endDate": "",
-          "which": ["leading fe developers", "foster SEO"],
-          "techStack": ["TypeScript", "React", "Recoil"]
+          "which": ["Chatbots", "LLMs", "NLP", "Knowledge Base / Retriever"],
+          "techStack": ["Python", "Scala", "TypeScript"]
         },
         {
           "title": {
-            "text": "Comet land",
-            "githubLink": "https://github.com/hyesungoh/comet-land",
-            "otherLink": "https://comet-land-blog.vercel.app"
-          },
-          "description": "Monorepo for blog and resume",
-          "startDate": "2021.6",
-          "endDate": "2021.12",
-          "which": ["construct monorepo with turborepo", "design with NextUI"],
-          "techStack": ["TypeScript", "React", "Next.js", "Turborepo", "NextUI", "Emotion"]
-        },
-        {
-          "title": {
-            "text": "Foo Eat",
+            "text": "Flow Builder",
             "githubLink": null,
             "otherLink": null
           },
-          "description": "Leading FE developers",
-          "startDate": "2021.03",
-          "endDate": "2021.06",
+          "description": "Maintaining and improving agent Flow Builder and automations", 
+          "startDate": "2021.09",
+          "endDate": "",
           "which": [
-            "develop comet-land",
-            "lorem lorem",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum iusto quasi alias provident quos perspiciatis modi dolores libero tenetur nam?"
+            "Flows",
+            "Automation"
           ],
-          "techStack": null
+          "techStack": ["Scala", "TypeScript", "DynamoDB", "Kafka", "Redis"]
         }
       ]
     },
     {
-      "name": "Bar company",
-      "position": "Web Developer",
-      "startDate": "2020.03",
+      "name": "Callsign",
+      "position": "Data Engineer",
+      "startDate": "2019.09",
       "endDate": "2021.03",
-      "description": "Bar company is very awesome",
+      "description": "Working on AI authentication systems.",
       "projects": [
         {
           "title": {
-            "text": "Bar Pay",
+            "text": "Intel Team",
             "githubLink": null,
             "otherLink": null
           },
-          "role": "FE Dev Leader",
-          "description": "Leading FE developers",
-          "startDate": "2020.08",
+          "description": "Maintaining, designing and improving a microservices (event-driven) platform that provides real-time digital authentication.",
+          "startDate": "2019.09",
           "endDate": "2021.03",
           "which": [
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit",
-            "Cum iusto quasi alias provident quos perspiciatis modi dolores libero tenetur nam?"
-          ],
-          "techStack": ["TypeScript", "React", "Recoil"]
-        },
-        {
-          "title": {
-            "text": "Bar Play",
-            "githubLink": null,
-            "otherLink": null
-          },
-          "role": "FE Dev Leader",
-          "description": "Leading FE developers",
-          "startDate": "2020.03",
-          "endDate": "2020.08",
-          "which": [
-            "perspiciatis modi dolores libero tenetur nam.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing."
+            "Scala", "Java", "Kafka", "Cassandra", "Redis", "AWS", "K8S", "Docker"
           ],
           "techStack": ["TypeScript", "React", "Recoil"]
         }
