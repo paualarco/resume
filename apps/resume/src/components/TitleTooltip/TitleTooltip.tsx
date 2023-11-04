@@ -2,14 +2,15 @@ import styled from '@emotion/styled';
 import { Button, Tooltip, useTheme } from '@nextui-org/react';
 import { Icon } from 'core';
 
+export type Size = 'small' | 'medium' | 'large';
 interface Props {
   text: string;
   githubLink: string | null;
   otherLink: string | null;
-  size: 'small' | 'medium' | 'large';
+  size: Size;
 }
 
-function titleSized(size: 'small' | 'medium' | 'large', text: string) {
+function titleSized(size: Size, text: string) {
   switch (size) {
     case 'small':
       return <h4>{text}</h4>;
