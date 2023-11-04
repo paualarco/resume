@@ -110,7 +110,9 @@
           "startDate": "2019.09",
           "endDate": "2021.03",
           "which": [
-            "Real-time data processing from IoT and network devices"
+            "Real-time data processing from IoT and network devices",
+            "Internship",
+            "Developed the final degree project in the company"
           ],
           "techStack": ["Scala", "Spark", "Spark Streaming", "Hadoop", "HDFS", "Hive", "Cloudera", "On-Premise", "Nifi", "HBase"]
         }
