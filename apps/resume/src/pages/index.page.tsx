@@ -1,26 +1,32 @@
+import { Courses, data as coursesData } from '../../_content/Courses';
+import { data as educationData, Education } from '../../_content/Education';
 import { data as headerData, Header as HeaderType } from '../../_content/Header';
-import { data as otherExperienceDate, OtherExperience } from '../../_content/Other-Experience';
+import { data as projectsData, Projects } from '../../_content/Projects';
 import { data as skillsData, Skills } from '../../_content/Skills';
 import { data as workExperienceData, WorkExperience } from '../../_content/Work-Experience';
+import CoursesSection from '../components/Courses';
+import EducationSection from '../components/Education';
 import Header from '../components/Header';
-import OtherExperienceSection from '../components/OtherExperienceSection';
-import SkillsSection from '../components/SkillsSection/SkillsSection';
+import ProjectsSection from '../components/Projects/ProjectsSection';
 import WorkExperienceSection from '../components/WorkExperienceSection';
 
 interface Props {
   header: HeaderType;
   workExperience: WorkExperience;
-  otherExperience: OtherExperience;
+  education: Education;
+  courses: Courses;
+  projects: Projects;
   skills: Skills;
 }
 
-function Resume({ header, workExperience, otherExperience, skills }: Props) {
+function Resume({ header, workExperience, education, courses, projects }: Props) {
   return (
     <main>
       <Header {...header} />
       <WorkExperienceSection {...workExperience} />
-      <OtherExperienceSection {...otherExperience} />
-      <SkillsSection {...skills} />
+      <EducationSection {...education} />
+      <ProjectsSection {...projects} />
+      <CoursesSection {...courses} />
     </main>
   );
 }
@@ -32,7 +38,9 @@ export async function getStaticProps() {
     props: {
       header: headerData,
       workExperience: workExperienceData,
-      otherExperience: otherExperienceDate,
+      education: educationData,
+      courses: coursesData,
+      projects: projectsData,
       skills: skillsData,
     },
   };

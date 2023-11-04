@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 
+import CoursesSection from './CoursesSection';
 import Default from './index';
-import OtherExperienceSection from './OtherExperienceSection';
 
 const mockOtherExperience = {
   title: 'title',
@@ -24,7 +24,7 @@ const mockOtherExperience = {
 describe('resume - components - OtherExperienceSection index', () => {
   it('should render same things with OtherExperienceSection component', () => {
     const { container: defaultContainer } = render(<Default {...mockOtherExperience} />);
-    const { container } = render(<OtherExperienceSection {...mockOtherExperience} />);
+    const { container } = render(<CoursesSection {...mockOtherExperience} />);
     expect(defaultContainer).toEqual(container);
   });
 });

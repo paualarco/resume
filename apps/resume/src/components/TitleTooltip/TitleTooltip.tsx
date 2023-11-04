@@ -6,17 +6,29 @@ interface Props {
   text: string;
   githubLink: string | null;
   otherLink: string | null;
+  size: 'small' | 'medium' | 'large';
 }
 
-function TitleTooltip({ text, githubLink, otherLink }: Props) {
+function titleSized(size: 'small' | 'medium' | 'large', text: string) {
+  switch (size) {
+    case 'small':
+      return <h4>{text}</h4>;
+    case 'medium':
+      return <h3>{text}</h3>;
+    case 'large':
+      return <h2>{text}</h2>;
+  }
+}
+
+function TitleTooltip({ text, githubLink, otherLink, size }: Props) {
   return githubLink !== null || otherLink !== null ? (
     <Tooltip placement="topStart" content={<TooltipContent githubLink={githubLink} otherLink={otherLink} />}>
       <StyledButton auto light color="primary" animated={false}>
-        <h3>{text}</h3>
+        {titleSized(size, text)}
       </StyledButton>
     </Tooltip>
   ) : (
-    <h3>{text}</h3>
+    titleSized(size, text)
   );
 }
 

@@ -1,0 +1,17 @@
+{
+  "title": "Projects",
+  "list": [
+    {
+      "title": {
+        "text": "Monix Connect",
+        "githubLink": "https://github.com/monix/monix-connect",
+        "otherLink": "https://connect.monix.io/"
+      },
+      "position": "A set of connectors and stream integrations for Monix.",
+      "startDate": "2020.09",
+      "endDate": null,
+      "description": "",
+      "which": []
+    }
+  ]
+}

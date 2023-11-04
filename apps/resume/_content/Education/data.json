@@ -1,0 +1,17 @@
+{
+  "title": "Education",
+  "list": [
+    {
+      "title": {
+        "text": "Universitat Autònoma de Barcelona",
+        "githubLink": null,
+        "otherLink": null
+      },
+      "position": "BSc in Computer Engineering",
+      "startDate": "2013.09",
+      "endDate": "2018.07",
+      "description": "",
+      "which": []
+    }
+  ]
+}

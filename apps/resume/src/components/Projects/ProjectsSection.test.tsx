@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 
-import OtherExperienceSection from './OtherExperienceSection';
+import ProjectsSection from './ProjectsSection';
 
-const mockOtherExperience = {
+const mockEducation = {
   title: 'title',
   list: [
     {
@@ -22,8 +22,8 @@ const mockOtherExperience = {
 
 describe('resume - components - OtherExperienceSection', () => {
   it('should render props', () => {
-    render(<OtherExperienceSection {...mockOtherExperience} />);
-    expect(screen.getByText(mockOtherExperience.title)).toBeInTheDocument();
-    expect(screen.getByText(mockOtherExperience.list[0].title.text)).toBeInTheDocument();
+    render(<ProjectsSection {...mockEducation} />);
+    expect(screen.getByText(mockEducation.title)).toBeInTheDocument();
+    expect(screen.getByText(mockEducation.list[0].title.text)).toBeInTheDocument();
   });
 });

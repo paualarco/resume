@@ -1,0 +1,77 @@
+{
+  "title": "Courses",
+  "list": [
+    {
+      "title": {
+        "text": "Generative AI with Large Language Models",
+        "githubLink": null,
+        "otherLink": "https://www.coursera.org/account/accomplishments/certificate/FCJGFB6AXAPY"
+      },
+      "position": "",
+      "startDate": "2023.10",
+      "endDate": "2018.07",
+      "description": "",
+      "which": []
+    },
+    {
+      "title": {
+        "text": "Functional Programming Principles in Scala",
+        "githubLink": null,
+        "otherLink": "https://www.coursera.org/account/accomplishments/certificate/CZYRDKU6ALHY"
+      },
+      "position": "",
+      "startDate": "2019.05",
+      "endDate": "",
+      "description": "",
+      "which": []
+    },
+    {
+      "title": {
+        "text": "Machine Learning",
+        "githubLink": null,
+        "otherLink": "https://www.coursera.org/account/accomplishments/certificate/XMMWMW7ZGZHB"
+      },
+      "position": "",
+      "startDate": "2017.10",
+      "endDate": "",
+      "description": "",
+      "which": []
+    },
+    {
+      "title": {
+        "text": "Cloudera Developer Training for Apache Spark and Hadoop",
+        "githubLink": null,
+        "otherLink": null
+      },
+      "position": "",
+      "startDate": "2017.09",
+      "endDate": "",
+      "description": "",
+      "which": []
+    },
+    {
+      "title": {
+        "text": "English Language certificate - B2",
+        "githubLink": null,
+        "otherLink": null
+      },
+      "position": "",
+      "startDate": "2017.09",
+      "endDate": "",
+      "description": "",
+      "which": []
+    },
+    {
+      "title": {
+        "text": "Introduction to Typescript",
+        "githubLink": null,
+        "otherLink": "https://www.udemy.com/certificate/UC-780bc5a0-e620-4dc1-9135-62b5bbc3937d/"
+      },
+      "position": "",
+      "startDate": "2022.01",
+      "endDate": "",
+      "description": "",
+      "which": []
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import Experience from './Experience';
+import Experience from './Courses';
 
 describe('resume - components - Experience', () => {
   it('should render props', () => {

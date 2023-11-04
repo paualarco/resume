@@ -34,7 +34,7 @@
           "startDate": "2021.04",
           "endDate": "2023.08",
           "which": [
-            "Integrating third party messaging apps with Dixa's platform to provide an omnichannel customer service experience.",
+            "Integrating third party messaging apps.",
             "Defining and implementing webhooks and apis for external integrations.", 
             "Adding new features and capabilities to existing channels",
             "Monitoring and improving existing production systems"
@@ -60,11 +60,12 @@
           "startDate": "2019.09",
           "endDate": "2021.03",
           "which": [
-            "Designing and improving an event-driven platform that provides real-time digital authentication.",
-            "Working in a team of 10-12 people from product, QA and data science",
-            "Leverage and orchestrate machine learning models used as core of the user authentication predictions."
+            "Designing and improving an event-driven platform",
+            "Real-time digital authentication and fraud detection",
+            "Team of 10-12 members",
+            "Leverage and orchestrate machine learning models used for authentication predictions."
           ],
-          "techStack": ["Scala", "Java", "Cassandra", "gRPC", "Kafka", "Redis", "AWS", "K8s", "Docker"]
+          "techStack": ["Java", "Scala", "Cassandra", "gRPC", "Kafka", "Redis", "AWS", "K8s", "Docker"]
         }
       ]
     },
@@ -89,7 +90,7 @@
             "Designing and implementing data pipelines to ingest data from different sources",
             "Development of a the delta-framework, used internally to deal with slow changing dimensionalities.  "
           ],
-          "techStack": ["Scala", "Java", "Cassandra", "gRPC", "Kafka", "Redis", "AWS", "K8s", "Docker"]
+          "techStack": ["Scala", "Spark", "Parquet", "Oozie", "Hive", "Cloudera", "Impala"]
         }
       ]
     },

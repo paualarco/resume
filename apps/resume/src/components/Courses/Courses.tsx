@@ -1,16 +1,18 @@
 import styled from '@emotion/styled';
 import { useTheme } from '@nextui-org/react';
 
-import { Experience } from '../../../_content/Other-Experience';
+import { Course } from '../../../_content/Courses';
 import Li from '../Li';
 import TitleTooltip from '../TitleTooltip';
 
-function Experience({ title, position, startDate, endDate, description, which }: Experience) {
+function Course({ title, position, startDate, endDate, description, which }: Course) {
   const { theme } = useTheme();
+
+  const props = { ...title, size: 'small' };
 
   return (
     <Div>
-      <TitleTooltip {...title} />
+      <TitleTooltip {...props} />
       <small>
         {startDate} ~ {endDate}
       </small>
@@ -29,7 +31,7 @@ function Experience({ title, position, startDate, endDate, description, which }:
   );
 }
 
-export default Experience;
+export default Course;
 
 const Div = styled.div`
   display: flex;

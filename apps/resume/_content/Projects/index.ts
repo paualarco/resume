@@ -1,6 +1,6 @@
 import data from './data.json';
 
-export interface Experience {
+export interface Project {
   title: {
     text: string;
     githubLink: string | null;
@@ -13,9 +13,9 @@ export interface Experience {
   which: string[];
 }
 
-export interface OtherExperience {
+export interface Projects {
   title: string;
-  list: Experience[];
+  list: Project[];
 }
 
 export { data };
