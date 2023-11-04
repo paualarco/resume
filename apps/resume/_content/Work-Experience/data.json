@@ -6,7 +6,7 @@
       "position": "Senior Software Engineer",
       "startDate": "2021.04",
       "endDate": "",
-      "description": "Building a customer service platform",
+      "description": "Barcelona, Spain · Remote",
       "projects": [
         {
           "title": {
@@ -48,7 +48,7 @@
       "position": "Data Engineer",
       "startDate": "2019.09",
       "endDate": "2021.03",
-      "description": "Working on AI authentication systems.",
+      "description": "London, UK",
       "projects": [
         {
           "title": {
@@ -56,13 +56,38 @@
             "githubLink": null,
             "otherLink": "https://www.callsign.com/platform/intelligence-engine"
           },
-          "description": "Artificial Intelligence, genuine security.",
+          "description": "Working on AI authentication systems and genuine security.",
           "startDate": "2019.09",
           "endDate": "2021.03",
           "which": [
             "Designing and improving an event-driven platform that provides real-time digital authentication.",
             "Working in a team of 10-12 people from product, QA and data science",
             "Leverage and orchestrate machine learning models used as core of the user authentication predictions."
+          ],
+          "techStack": ["Scala", "Java", "Cassandra", "gRPC", "Kafka", "Redis", "AWS", "K8s", "Docker"]
+        }
+      ]
+    },
+    {
+      "name": "Santander UK",
+      "position": "Big Data Engineer",
+      "startDate": "2018.09",
+      "endDate": "2019.09",
+      "description": "Milton Keynes, UK",
+      "projects": [
+        {
+          "title": {
+            "text": "Ingestion",
+            "githubLink": null,
+            "otherLink": "https://www.callsign.com/platform/intelligence-engine"
+          },
+          "description": "Ingest data from a wide range of sources and formats to the data lake",
+          "startDate": "2019.09",
+          "endDate": "2021.03",
+          "which": [
+            "Ensuring data from diferent sources landed to the data lake in a timely manner",
+            "Designing and implementing data pipelines to ingest data from different sources",
+            "Development of a the delta-framework, used internally to deal with slow changing dimensionalities.  "
           ],
           "techStack": ["Scala", "Java", "Cassandra", "gRPC", "Kafka", "Redis", "AWS", "K8s", "Docker"]
         }
