@@ -42,7 +42,6 @@ function Header({ heading, description }: Header) {
           </Link>
         </div>
       </div>
-      ∂
     </header>
   );
 }
