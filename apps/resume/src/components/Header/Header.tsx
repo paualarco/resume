@@ -25,19 +25,19 @@ function Header({ heading, description }: Header) {
       <div style={{ flexDirection: 'row' }}>
         <div>
           <Link href="https://github.com/paualarco" className="button">
-            <Avatar src={githubImg.default.src} alt={authorName} size="sm" squared />
+            <Avatar src={githubImg.default.src} alt={authorName} size="sm" squared style={{ margin: 5 }} />
             @paualarco
           </Link>
         </div>
         <div>
-          <Link href="www.linkedin.com/in/paualarcon/" className="button">
-            <Avatar src={twitterImg.default.src} alt={authorName} size="sm" squared />
+          <Link href="https://twitter.com/paualarco" className="button">
+            <Avatar src={twitterImg.default.src} alt={authorName} size="sm" squared style={{ margin: 5 }} />
             @paualarco
           </Link>
         </div>
         <div>
-          <Link href="www.linkedin.com/in/paualarcon/" className="button">
-            <Avatar src={linkedinImg.default.src} alt={authorName} size="sm" squared />
+          <Link href="https://linkedin.com/in/paualarcon/" className="button">
+            <Avatar src={linkedinImg.default.src} alt={authorName} size="sm" squared style={{ margin: 5 }} />
             linkedin.com/in/paualarcon
           </Link>
         </div>
