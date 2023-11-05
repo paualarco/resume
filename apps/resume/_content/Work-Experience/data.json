@@ -18,10 +18,9 @@
           "startDate": "2023.08",
           "endDate": "",
           "which": [
-            "Chatbot support agent that reduces human customer service workload", 
-            "Generative AI with LLMs", 
-            "Knowledge Base data loading for Retrieval Augmented Generation (RAG)", 
-            "Improving agent Flow Builder and automations"],
+            "Desing LLM systems for chatbots with multiple languages and knowledge bases.", 
+            "Agent flow builder and automations."
+          ],
           "techStack": ["Python", "Scala", "React", "TypeScript", "LLMs", "Kafka", "Postgres"]
         },
         {
@@ -34,10 +33,8 @@
           "startDate": "2021.04",
           "endDate": "2023.08",
           "which": [
-            "Integrating third party messaging apps.",
-            "Defining and implementing webhooks and apis for external integrations.", 
-            "Adding new features and capabilities to existing channels",
-            "Monitoring and improving existing production systems"
+            "Integrating third party messaging apps with apis and webhook definitions.", 
+            "Adding new features and capabilities to existing channels."
           ],
           "techStack": ["Scala", "React", "AWS", "Kafka", "Redis", "Thrift", "DynamoDB", "SQS", "SES", "SNS", "Postgres"]
         }
@@ -60,9 +57,8 @@
           "startDate": "2019.09",
           "endDate": "2021.03",
           "which": [
-            "Designing and improving an event-driven platform",
-            "Real-time digital authentication and fraud detection",
-            "Team of 10-12 members",
+            "Designing and improving an event-driven platform.",
+            "Real-time digital authentication and fraud detection.",
             "Leverage and orchestrate machine learning models used for authentication predictions."
           ],
           "techStack": ["Java", "Scala", "Cassandra", "gRPC", "Kafka", "Redis", "AWS", "K8s", "Docker"]
@@ -82,13 +78,12 @@
             "githubLink": null,
             "otherLink": null
           },
-          "description": "Ingest data from a wide range of sources and formats to the data lake",
+          "description": "Ingest data from a wide range of sources and formats to the data lake.",
           "startDate": "2019.09",
           "endDate": "2021.03",
           "which": [
-            "Ensuring data from diferent sources landed to the data lake in a timely manner",
-            "Designing and implementing data pipelines to ingest data from different sources",
-            "Development of a the delta-framework, used internally to deal with slow changing dimensionalities.  "
+            "Designing and implementing data pipelines to ingest data from different sources.",
+            "Development of a the delta-framework, used internally to deal with slow changing dimensionalities."
           ],
           "techStack": ["Scala", "Spark", "Parquet", "Oozie", "Hive", "Cloudera", "Impala"]
         }
@@ -111,9 +106,8 @@
           "startDate": "2019.09",
           "endDate": "2021.03",
           "which": [
-            "Real-time data processing from IoT and network devices",
-            "Internship",
-            "Developed the final degree project in the company"
+            "Real-time data processing from IoT and network devices.",
+            "Developed the final degree project in the company."
           ],
           "techStack": ["Scala", "Spark", "Spark Streaming", "Hadoop", "HDFS", "Hive", "Cloudera", "On-Premise", "Nifi", "HBase"]
         }
