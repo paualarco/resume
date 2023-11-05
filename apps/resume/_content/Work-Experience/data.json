@@ -57,7 +57,6 @@
           "startDate": "2019.09",
           "endDate": "2021.03",
           "which": [
-            "Designing and improving an event-driven platform.",
             "Real-time digital authentication and fraud detection.",
             "Leverage and orchestrate machine learning models used for authentication predictions."
           ],

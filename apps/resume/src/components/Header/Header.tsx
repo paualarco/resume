@@ -17,13 +17,11 @@ function Header({ heading, description }: Header) {
 
         <ThemeSwitch />
       </HeadingWrapper>
-
       <DescriptionWrapper>
         <Avatar src={authorImage.default.src} alt={authorName} text={authorName} size="xl" />
         <P dangerouslySetInnerHTML={{ __html: description }}></P>
       </DescriptionWrapper>
       <Spacer x={1} />
-
       <div style={{ flexDirection: 'row' }}>
         <div>
           <Link href="https://github.com/paualarco" className="button">
@@ -44,6 +42,7 @@ function Header({ heading, description }: Header) {
           </Link>
         </div>
       </div>
+      ∂
     </header>
   );
 }
