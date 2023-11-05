@@ -12,6 +12,9 @@ export * as favicon from './favicon.ico';
 
 // using bot app's header and resume's og:image
 export * as authorImage from './author.png';
+export * as githubImg from './github.svg';
+export * as linkedinImg from './linkedin.svg';
+export * as twitterImg from './twitter.svg';
 
 // using blog og:image
 export * as defaultMetaBackground from './defaultMetaBackground.png';

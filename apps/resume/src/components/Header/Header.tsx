@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
-import { Avatar, Text, useTheme } from '@nextui-org/react';
+import { Avatar, Link, Spacer, Text, useTheme } from '@nextui-org/react';
 import { ThemeSwitch } from 'core';
-import { authorImage, authorName } from 'core/constants';
+import { authorImage, authorName, githubImg, linkedinImg, twitterImg } from 'core/constants';
 
 import { Header } from '../../../_content/Header';
 
@@ -22,6 +22,28 @@ function Header({ heading, description }: Header) {
         <Avatar src={authorImage.default.src} alt={authorName} text={authorName} size="xl" />
         <P dangerouslySetInnerHTML={{ __html: description }}></P>
       </DescriptionWrapper>
+      <Spacer x={1} />
+
+      <div style={{ flexDirection: 'row' }}>
+        <div>
+          <Link href="https://github.com/paualarco" className="button">
+            <Avatar src={githubImg.default.src} alt={authorName} size="sm" squared />
+            @paualarco
+          </Link>
+        </div>
+        <div>
+          <Link href="www.linkedin.com/in/paualarcon/" className="button">
+            <Avatar src={twitterImg.default.src} alt={authorName} size="sm" squared />
+            @paualarco
+          </Link>
+        </div>
+        <div>
+          <Link href="www.linkedin.com/in/paualarcon/" className="button">
+            <Avatar src={linkedinImg.default.src} alt={authorName} size="sm" squared />
+            linkedin.com/in/paualarcon
+          </Link>
+        </div>
+      </div>
     </header>
   );
 }
