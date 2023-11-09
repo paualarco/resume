@@ -14,11 +14,11 @@
             "githubLink": null,
             "otherLink": "https://www.dixa.com/product/mim/"
           },
-          "description": "Dixa’s next-gen chatbot for customer service.",
+          "description": "Dixa’s chatbot for customer service.",
           "startDate": "2023.08",
           "endDate": "",
           "which": [
-            "Desing LLM systems for chatbots with multiple languages and knowledge bases.", 
+            "Design LLM systems for chatbots with multiple languages and knowledge bases.", 
             "Agent flow builder and automations."
           ],
           "techStack": ["Python", "Scala", "React", "TypeScript", "LLMs", "Kafka", "Postgres"]
@@ -36,7 +36,7 @@
             "Integrating third party messaging apps with apis and webhook definitions.", 
             "Adding new features and capabilities to existing channels."
           ],
-          "techStack": ["Scala", "React", "AWS", "Kafka", "Redis", "Thrift", "DynamoDB", "SQS", "SES", "SNS", "Postgres"]
+          "techStack": ["Scala", "React", "TypeScript", "AWS", "Kafka", "Redis", "Thrift", "DynamoDB", "SQS", "SES", "SNS", "Postgres"]
         }
       ]
     },

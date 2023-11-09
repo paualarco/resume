@@ -17,7 +17,7 @@ export function Footer() {
       </span>
       <span>
         Powered By{' '}
-        <Link href="https://github.com/hyesungoh/comet-land" target="_blank">
+        <Link href="https://github.com/hyesungoh" target="_blank">
           @Comet-land
         </Link>
       </span>
