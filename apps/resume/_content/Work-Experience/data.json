@@ -10,7 +10,7 @@
       "projects": [
         {
           "title": {
-            "text": "Mim",
+            "text": "Automations",
             "githubLink": null,
             "otherLink": "https://www.dixa.com/product/mim/"
           },
@@ -18,7 +18,7 @@
           "startDate": "2023.08",
           "endDate": "",
           "which": [
-            "Design LLM systems for chatbots with multiple languages and knowledge bases.", 
+            "Design Chatbot applications with support for multiple languages and knowledge bases.", 
             "Agent flow builder and automations."
           ],
           "techStack": ["Python", "Scala", "React", "TypeScript", "LLMs", "Kafka", "Postgres"]
